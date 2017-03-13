@@ -78,8 +78,41 @@
 
 			<form class="formulario">
 				<label for="nombre">Nombre</label>
-				<input type="text" name="" id="nombre" required value="" placeholder="Nombre"/>
-				<input type="email" name="" required value="" placeholder="E-mail">
+				<input type="text" name="nombre" id="nombre" required />
+				<label for="email">E-mail</label>
+				<input type="email" name="email" id="email" required value="" />
+
+					<div class="sexo">
+						<label for="mujer">
+							<input type="radio" id="mujer"name="sexo" value="mujer" /> mujer
+						</label>
+						<label for="hombre">
+							<input type="radio" id="hombre"name="sexo" value="hombre" /> hombre
+						</label>
+
+					</div>
+
+					<div class="intereses">
+						<label for="cotizacion">
+							<input type="checkbox" name="intereses" id="cotizacion"  value="cotizacion"/>Cotizacion
+						</label>
+						<label for="reclamos">
+							<input type="checkbox" name="intereses" id="reclamos" value="reclamos" />Reclamos
+						</label>
+						<label for="comentarios">
+							<input type="checkbox" name="intereses" id="comentarios"  value="comentarios"/>Comentarios
+						</label>
+						<label for="otros">
+							<input type="checkbox" name="intereses" id="otros" value="otros" />Otros
+						</label>
+					</div>
+
+					<div class="">
+						<label for="comentarios">Comentarios</label>
+						<textarea name="comentarios" rows="7" cols="30"></textarea>
+						<input type="submit" name="enviar" value="Enviar"/>
+					</div>
+
 			</form>
 
 			</div>
