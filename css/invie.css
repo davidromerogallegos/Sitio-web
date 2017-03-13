@@ -9,7 +9,13 @@ body{
   font-family: 'Allerta', sans-serif;
   margin: 0;
 }
-
+button{
+  border-radius: 5px;
+  border:none;
+  padding: 7px;
+  background: #fd324e;
+  color: white;
+}
 .titulo {
   font-size: 70px;
   font-family: 'Montserrat', sans-serif;
@@ -64,6 +70,7 @@ body{
   padding: 10px;
   /*overflow: hidden;*/
   border: 1px solid #1F313C;
+  border-radius: 8px;
 
 }
 .guitarra ol {
@@ -89,4 +96,18 @@ body{
 }
 .header{
   position: relative;
+}
+.footer {
+  background: #273b47;
+}
+
+.contacto img{
+  display: block;
+}
+.contacto strong{
+  display: block;
+}
+.contacto a{
+  color: white;
+  text-decoration: none;
 }
