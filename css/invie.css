@@ -10,11 +10,15 @@ body{
   margin: 0;
 }
 .button{
-  border-radius: 5px;
+  border-radius: 12px;
   border:none;
   padding: 7px;
   background: #fd324e;
   color: white;
+  padding: 7px;
+  cursor: pointer;
+  font-size: 18px;
+  background: linear-gradient(to left, #fe344e, #ff7250);
 }
 .titulo {
   font-size: 70px;
@@ -40,8 +44,9 @@ body{
 }
 .portada{
   background-image: url('../images/background.png') ;
+  background-size: cover;
   color: white;
-  padding: 20px;
+    padding: 20px;
 }
 .portada button{
   margin-bottom: 70px:
@@ -56,9 +61,18 @@ body{
 .menu li{
   display: inline-block;
   margin-left: 30px;
+  line-height: 20px;
+  color: white;
 }
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+
 .logotipo{
   display: inline-block;
+  margin-left: 0px;
 }
 .contenedor {
   width: 800px;
@@ -148,6 +162,16 @@ body{
 .formulario label, .sexo, .intereses{
   margin-bottom: 10px;
 }
+
+.intereses {
+  display: flex;
+flex-direction: row;
+}
+
+.intereses label{
+  margin-right: 10px;
+}
+
 .sexo{
   margin-top: 10px;
 }
